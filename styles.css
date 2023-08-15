@@ -1,0 +1,17 @@
+p {
+    font-family: sans-serif;
+    color: red;
+    font-size: 30px;
+}
+
+section div p {
+    font-family: sans-serif;
+    color: rgb(1, 1, 36);
+    font-size: 30px;
+}
+
+nav, footer {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 30px;
+}
