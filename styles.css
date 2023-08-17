@@ -1,17 +1,174 @@
 p {
     font-family: sans-serif;
-    color: red;
-    font-size: 30px;
+    color: rgb(10, 10, 10);
+    font-size: 20%;
 }
 
 section div p {
     font-family: sans-serif;
-    color: rgb(1, 1, 36);
-    font-size: 30px;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
 }
 
 nav, footer {
     font-family: sans-serif;
-    color: blue;
-    font-size: 30px;
+    color: rgb(57, 6, 240);
+    font-size: 20px;
 }
+
+.azul {
+    color: rgb(8, 8, 8);
+  }
+  
+  .verde-bg {
+    background: rgb(255, 255, 255);
+  }
+  
+  .elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+  }
+  
+  
+  span#exemploId {
+    background-color: rgb(150, 221, 243);
+  }
+
+
+  /* #ChatGPT# */
+
+  /*Este arquivo CSS ( styles.css) contém estilos 
+  básicos para sua página da web. 
+  Aqui está um detalhamento do que cada seção faz: */
+
+  /* Basic Reset */
+body, h1, h2, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+/* Redefinição básica : define margens e preenchimentos 
+como 0 para elementos HTML comuns para redefinir o estilo padrão do navegador. */
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+/* Estilos globais : define estilos básicos para toda a página, 
+incluindo a família de fontes, a cor do plano de fundo e a cor do texto. /*
+
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Estilos de cabeçalho : Estiliza a área 
+do cabeçalho com uma cor de fundo, cor e exibição flexível para a navegação. */
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+} 
+
+nav li {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Estilos de conteúdo principal : estilos para a área de 
+conteúdo principal, incluindo largura 
+máxima, margens, preenchimento e cores de texto. */
+
+h1, h2 {
+  color: #333;
+}
+
+
+#exampleId {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+/* Estilos para ID "exampleId" : altera o tamanho, o 
+peso e a cor da fonte para o "Vamos explorar!" período. */
+
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Estilos de seção : Estilos para as seções que contêm 
+conteúdo. Define a cor 
+de fundo, preenchimento, margem, raio da borda e sombra. */
+
+
+p.blue {
+  color: #007bff;
+}
+
+p.green-bg {
+  background-color: #00cc66;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+p.elegant {
+  font-style: italic;
+  color: #666;
+}
+/* Estilos de parágrafo : estilos diferentes 
+para parágrafos com classes específicas: 
+cor azul, fundo verde e itálico com uma cor diferente. */
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
+/* Estilos de rodapé : plano de fundo, preenchimento 
+e alinhamento de texto para a área do rodapé. */
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  main {
+      padding: 10px;
+  }
+}
+/* Estilos responsivos : ajusta o preenchimento 
+da área de conteúdo principal 
+quando a largura da tela está abaixo de 768px. */
+
+
