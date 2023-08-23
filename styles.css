@@ -172,3 +172,87 @@ da área de conteúdo principal
 quando a largura da tela está abaixo de 768px. */
 
 
+/* Propriedades Flexbox adicionadas: */ 
+
+/* Basic Reset and Global Styles */
+
+/* Header Styles */
+header {
+  /* Flexbox styles */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Na header seção, usei display: flex para criar um 
+contêiner flexível para o conteúdo do cabeçalho. 
+justify-content: space-betweene e align-items: center organizar o conteúdo */
+
+nav ul {
+  /* Flexbox styles */
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main.flex-container {
+  /* Flexbox styles */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Na main seção, solicitei display: flex a criação de um contêiner flexível para o conteúdo principal. 
+As propriedades justify-content: space-betweene e align-items: flex-start alinham as seções lado a lado. */
+
+
+section.flex-item {
+  /* Flexbox styles */
+  flex: 1;
+  padding: 20px;
+}
+
+/* Apliquei flex: 1
+aos section elementos dentro do conteúdo principal. 
+Isso permite que as seções ocupem o mesmo espaço disponível. */
+
+
+/* Footer Styles */
+footer {
+  /* Flexbox styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Na footer seção, usei display: flex e flex-direction: column
+para organizar o conteúdo verticalmente. 
+align-items: center
+centraliza o conteúdo horizontalmente. */
+
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Essas propriedades do Flexbox ajudam a criar um layout 
+responsivo e perfeitamente alinhado para a página da web. */
+
